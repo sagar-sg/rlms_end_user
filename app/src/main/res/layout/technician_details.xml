@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/main_lin_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White"
+        android:gravity="left"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/ic_perm_identity"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="@string/title"
+            android:textColor="@color/DodgerBlue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/email_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/ic_contact_mail"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="email"
+            android:textColor="@color/DodgerBlue"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/contact_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:drawableLeft="@drawable/ic_contact_phone"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:padding="5dp"
+            android:text="Not selected"
+            android:textColor="@color/DodgerBlue"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/ok_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/DodgerBlue"
+            android:text="Ok"
+            android:textColor="@color/White"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

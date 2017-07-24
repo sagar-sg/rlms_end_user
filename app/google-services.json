@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "880460731846",
+    "firebase_url": "https://rlmsenduser.firebaseio.com",
+    "project_id": "rlmsenduser",
+    "storage_bucket": "rlmsenduser.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880460731846:android:0296f35cab5e7b1c",
+        "android_client_info": {
+          "package_name": "com.rlms.usertest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "880460731846-evlb4phg263erck8r2628crsfna4scte.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rlms.usertest",
+            "certificate_hash": "1ba5bdb81c1c70e79d052e9e5b69f6d9239b178b"
+          }
+        },
+        {
+          "client_id": "880460731846-q2969jqi1829ni1g4969juve6uiqcgce.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfj0vh7mJGXck7aBC8JQUtyhaR6JqFFK8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "880460731846-q2969jqi1829ni1g4969juve6uiqcgce.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
